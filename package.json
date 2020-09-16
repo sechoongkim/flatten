@@ -1,0 +1,18 @@
+{
+  "name": "flatten",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "test": "mocha",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register tst/*",
+	"build": "babel --presets es2015 -d lib/ src"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.2.0"
+  }
+}

@@ -6,7 +6,7 @@ This application provides a function which flattens an array. It loops through t
 
 Unit tests have been added.
 
-$> cd flatten
-$> npm install
-$> npm test
+> cd flatten
+> npm install
+> npm test
 
